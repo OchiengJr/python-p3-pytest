@@ -2,6 +2,9 @@
 
 from bool_functions import return_true
 
-def test_return_true():
-    '''in bool_functions, function "return_true" returns True.'''
-    assert return_true() == True
+class TestBoolFunctions:
+    '''Test cases for bool_functions.py'''
+
+    def test_return_true(self):
+        '''Test that return_true() function returns True.'''
+        assert return_true() is True

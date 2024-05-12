@@ -1,2 +1,2 @@
 def return_not_none():
-    return None
+    return 42  # Or any non-None value you prefer
